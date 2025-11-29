@@ -8,7 +8,7 @@ The design is to write a quick note that is timestamped to be able to reference 
 Time-logger was written in C to be able to complie for cross platform.
 
 Main files:
-There arer two executible files in the main folder, they were compiled using GCC. Written for a Debian based linux machine, not tested on any other OS.
+There are two executible files in the main folder, they were compiled using GCC. Written for a Debian based linux machine, not tested on any other OS.
 - time_log_cli = executible file for the linux command line interface
 - time_log_gui = executible file for the graphical user interface using GTK3 
 
