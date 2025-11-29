@@ -1,15 +1,19 @@
 # Time-logger
 Written in C, Time-logger is a time stamping tool for user defined events that are written out to a cvs file.  
 
-This is a very simple tool designed to timestamp and log random events and milestones that occur in everday life.
-Time-logger was written in C to be able to complie for cross platformd.
+This is a very simple tool designed to timestamp and log random events and milestones that occur in everday life. 
+The random events are 100% based on user input and limited to 100 characters. 
+The design is to write a quick note that is timestamped to be able to reference the logged data at a different time.
 
-Files:
+Time-logger was written in C to be able to complie for cross platform.
+
+Main files:
+There arer two executible files in the main folder, they were compiled using GCC. Written for a Debian based linux machine, not tested on any other OS.
 - time_log_cli = executible file for the linux command line interface
 - time_log_gui = executible file for the graphical user interface using GTK3 
 
 Source:
-There are two source files in the src folder.
+There are two source files in the "src" folder.
 - time_log_cli.c = source file for use in a linux based command line interface 
 - time_log_gui.c = source file for a graphical user interface in linux using GTK
 
